@@ -1,0 +1,4 @@
+#select where column1 contains "word1"
+
+SELECT * FROM mytable
+WHERE column1 LIKE '%word1%'
