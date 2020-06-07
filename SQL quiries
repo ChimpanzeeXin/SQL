@@ -2,3 +2,9 @@
 
 SELECT * FROM mytable
 WHERE column1 LIKE '%word1%'
+
+#You can use the words ALL or ANY where the right side of the operator might have multiple values.
+SELECT name FROM world
+ WHERE population > ALL
+      (SELECT population FROM world
+        WHERE continent='Europe')
