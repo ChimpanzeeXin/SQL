@@ -8,3 +8,8 @@ SELECT name FROM world
  WHERE population > ALL
       (SELECT population FROM world
         WHERE continent='Europe')
+   
+ #Using the MAX aggregate function returns the highest GDP from the sub-query which is what you want to compare with the outer query.
+ SELECT name 
+  FROM world 
+ WHERE gdp > (SELECT MAX(gdp) FROM world WHERE continent = 'Europe')
