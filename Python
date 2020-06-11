@@ -1,1 +1,9 @@
 # "in" is the intended way to test for the existence of a key in a dict
+
+#zip
+strs = ["flower","flow","flight"]
+l = list(zip(*strs))
+>>> l = [('f', 'f', 'f'), ('l', 'l', 'l'), ('o', 'o', 'i'), ('w', 'w', 'g')]
+
+#set
+#set(list) will return distinct elements of this list 
