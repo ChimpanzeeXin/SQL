@@ -7,3 +7,5 @@ l = list(zip(*strs))
 
 #set
 #set(list) will return distinct elements of this list 
+
+#Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.
