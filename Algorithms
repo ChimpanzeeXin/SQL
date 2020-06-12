@@ -1,2 +1,9 @@
 # Greedy Algorithm
 The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem. 
+
+
+#Math: get rid of the first digit: number%(比number少一位的10000)
+#      get rid of the last digit : number//10
+#      need the first digit: number // (比number少一位的10000)
+#      need the last digit number: number % 10
+见leetcode Q7,9
