@@ -82,3 +82,22 @@ WHERE actorid IN (
   WHERE name='Julie Andrews')
 )
 and ord =1
+
+#还可以这样JOIN？
+SELECT id, name FROM stops, route
+WHERE id=stop
+AND company='LRT'
+AND num='4'
+
+#A foreign key is a column or group of columns in a relational database table that provides a link between data in two tables. It acts as a cross-reference between tables because it references the primary key of another table, thereby establishing a link between them.
+
+#SELF JOIN 的用法 第5题
+/*
+Execute the self join shown and observe that b.stop gives all the places you can get to from Craiglockhart, without changing routes. Change the query so that it shows the services from Craiglockhart to London Road.
+*/
+SELECT a.company, a.num, a.stop, b.stop
+FROM route a JOIN route b ON
+  (a.company=b.company AND a.num=b.num)
+WHERE a.stop=53
+AND b.stop = 
+(SELECT id from stops where name = 'London Road')
