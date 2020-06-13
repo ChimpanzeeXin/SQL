@@ -7,3 +7,6 @@ The algorithm makes the optimal choice at each step as it attempts to find the o
 #      need the first digit: number // (比number少一位的10000)
 #      need the last digit number: number % 10
 见leetcode Q7,9
+
+#Math: Digit Root
+The digital root of a number is equal to the remainder when that number is divided by 9. If the remainder is 0 and the number is greater than 0, then the digital root is 9. If the number is 0, then the digital root of the number is 0.
