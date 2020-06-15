@@ -1,3 +1,21 @@
+ 从数据结构开始学算法：
+ **linked list
+ 1. Dummy head: keep the reference of head and return to the whole linked list in the end
+ 2. Iterate linked list (and add new node to linked list):
+     cur.next = newNode
+     cur = cur.next
+ 3. Recursion is faster than iteration?
+ 4. Awways to check if the head is None at the beginning
+ 
+ 一些辅助工具：
+ #Hash Table
+ Hash table is useful to record reference for index in array(1) or linked list(141)! But is cost space complexity O(n)
+ 
+ #two pointers
+ 1. Cyclic questions: fast and slow pointers will finally meet up!
+ 
+
+
 # Greedy Algorithm
 The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem. 
 
