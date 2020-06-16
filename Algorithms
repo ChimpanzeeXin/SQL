@@ -5,7 +5,12 @@
      cur.next = newNode
      cur = cur.next
  3. Recursion is faster than iteration?
- 4. Awways to check if the head is None at the beginning
+ 4. Aways to check if the head is None at the beginning
+ 5.为啥要考linked list？
+ The whole point of asking any candidates a linked list problem is to test if the candidates think about edge cases, including:
+     a.Dereferencing Null Pointer, usually targeting tail pointer
+     b.When given Head is None
+     c.When there are duplications in the list
  
  一些辅助工具：
  #Hash Table
@@ -32,3 +37,9 @@ The algorithm makes the optimal choice at each step as it attempts to find the o
 
 #Math: Digit Root
 The digital root of a number is equal to the remainder when that number is divided by 9. If the remainder is 0 and the number is greater than 0, then the digital root is 9. If the number is 0, then the digital root of the number is 0.
+
+
+****总是整不明白的题目！
+206. reverse linked list
+iteration方法考察的赋值先后顺序，逻辑参考：https://leetcode-cn.com/problems/reverse-linked-list/solution/dong-hua-yan-shi-206-fan-zhuan-lian-biao-by-user74/. 注意最后返回prev！234 uses this reverse idea as well
+
