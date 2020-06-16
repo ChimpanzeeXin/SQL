@@ -12,7 +12,11 @@
  Hash table is useful to record reference for index in array(1) or linked list(141)! But is cost space complexity O(n)
  
  #two pointers
- 1. Cyclic questions: fast and slow pointers will finally meet up!
+ 1. Application of fast and slow pointers
+   a. fast and slow pointers will finally meet: Cyclic questions(141)
+   b. find mid point of linked list by fast and slow pointers(234)
+   
+ 
  
 
 
