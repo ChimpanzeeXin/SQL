@@ -12,6 +12,18 @@
      b.When given Head is None
      c.When there are duplications in the list
  
+ **Recursion:
+ 个人感觉和建议，有2点：写出递归函数也就是要处理好递归的3个主要的点: 
+ a)出口条件，即递归“什么时候结束”，这个通常在递归函数的开始就写好;   
+ b) 如何由"情况 n" 变化到"情况 n+1", 也就是非出口情况，也就是一般情况——"正在"递归中的情况； 
+ c) 初始条件，也就是这个递归调用以什么样的初始条件开始
+ 可以说，上述a,b,c三个条件组成了我们的递归函数；解决好上述3点，也就很容易地写出一个递归函数；
+ 剩下的就是去学习学习“数学归纳法”，请自己google之；不许要你称为归纳法专家，但只需要认证体会它的思路，对于你理解和创造递归函数有很大帮助
+
+ 
+ 
+ 
+ 
  一些辅助工具：
  #Hash Table
  Hash table is useful to record reference for index in array(1) or linked list(141)! But is cost space complexity O(n)
@@ -21,8 +33,17 @@
    a. fast and slow pointers will finally meet: Cyclic questions(141)
    b. find mid point of linked list by fast and slow pointers(234)
    
+
+#swap in python is direct:
+  s[left], s[right] = s[right], s[left]  
+  eg. 344 also two pointers!
  
  
+ 
+ 
+
+#In computer science, an in-place algorithm is an algorithm which transforms input using no auxiliary data structure
+
 
 
 # Greedy Algorithm
