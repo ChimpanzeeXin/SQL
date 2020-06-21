@@ -27,6 +27,9 @@
     当我们要找某个节点时，返回None，例如235
     当我们返回bool时，出口条件就是False 例如112, recursion中的返回值也是bool
  2. 二叉搜索树，中序遍历出来的结果就是有序的
+ 3. Preorder: the first item is the root
+    eg. leetcode 105 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/34579/Python-short-recursive-solution.
+ 
  
  
  一些辅助工具：
