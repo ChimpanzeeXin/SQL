@@ -30,6 +30,8 @@
  3. Preorder: the first item is the root
     eg. leetcode 105 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/34579/Python-short-recursive-solution.
  
+ **DP
+ 1.  转移方程通常要转化为max或min, eg.53
  
  
  一些辅助工具：
